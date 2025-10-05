@@ -1,2 +1,2 @@
 # devops_practice
-Devops training with Hero Vired
+Python programms assignments
