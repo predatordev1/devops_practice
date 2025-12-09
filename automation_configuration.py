@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 automation_configuration = Flask(__name__)
 # MongoDB connection
-myclient = MongoClient("mongodb+srv://devendra8182_db_user:h7bjVagR8ru8DFdo@devendra.io1nvag.mongodb.net/")
+myclient = MongoClient("mongodb+srv://xxxxxxxxxxxxxxxxxxx:h7bjVagR8ru8DFdo@devendra.io1nvag.mongodb.net/")
 mydb = myclient["mongo_db_practice"]
 mycol = mydb["system_config"]
 
@@ -92,3 +92,4 @@ if __name__ == "__main__":
         print("Configuration saved in MongoDB.")
 
     automation_configuration.run(debug=True)
+
